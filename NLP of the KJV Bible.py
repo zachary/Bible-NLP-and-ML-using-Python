@@ -236,7 +236,7 @@ df1.iloc[26558]
 
 # For Most of the NLP 
 import spacy 
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 
 # In[24]:
@@ -387,9 +387,9 @@ df1.to_csv("kjv_final1.csv")
 
 
 #### Predicting New and Old
-+ NT 1
-+ OT 0
-+ Using Naive Bayes
+#+ NT 1
+#+ OT 0
+#+ Using Naive Bayes
 
 
 # In[53]:
@@ -496,7 +496,7 @@ print("Accuracy of Model",clf.score(X_train,y_train)*100,"%")
 
 
 #### Predicting A Text
-+ Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.(1 Corinthians 10:31 )
+#+ Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.(1 Corinthians 10:31 )
 
 
 # In[76]:
@@ -518,7 +518,7 @@ clf.predict(vect)
 
 
 ### Example
-+ Isaiah 41:10
+#+ Isaiah 41:10
 sample_verse2 = ["Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness."]
 
 
