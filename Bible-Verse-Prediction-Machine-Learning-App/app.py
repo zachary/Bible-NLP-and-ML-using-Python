@@ -4,7 +4,7 @@ import numpy as np
 
 # ML Packages
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.externals import joblib
+import joblib
 
 # NLP
 from textblob import TextBlob 
