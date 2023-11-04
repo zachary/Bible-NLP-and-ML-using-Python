@@ -546,7 +546,7 @@ clf.predict(vect2)
 # In[82]:
 
 
-from sklearn.externals import joblib
+import joblib
 
 
 # In[83]:
