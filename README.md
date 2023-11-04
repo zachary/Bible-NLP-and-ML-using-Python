@@ -5,6 +5,7 @@
 + Predictive Analytics of Bible Passages
 + Named Entities
 
+## Please use python 3.8 and pip install -r requirements.txt ##
 
 #### Requirements
 - Pandas
